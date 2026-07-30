@@ -1,0 +1,3 @@
+-- Challenge: Weather Observation Station 2
+SELECT Round(SUM(LAT_N), 2), Round(SUM(LONG_W), 2) 
+FROM STATION;
